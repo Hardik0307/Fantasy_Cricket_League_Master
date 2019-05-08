@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 4, 2019, 7:11:01 PM
+    Author     : HARDIK
+*/
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+        background: url(Images/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: white;
+     top: 0px;
+     height: 25px;
+     width: 25px;
+     left:45px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 18px/1 'Open Sans', sans-serif;
+     left: 4px;
+     top: 4px;
+     content: "\2714";
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: MediumSeaGreen;
+}
+.form-radio:checked
+{
+     background-color: MediumSeaGreen;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: whitesmoke;
+     cursor: pointer;
+} 
+input.MyButton {
+width: 80px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 100%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color: whitesmoke;
+background: orange;
+border: 1px solid #fff;
+}

@@ -1,0 +1,95 @@
+#banner_image{
+ padding-top: 75px;
+ padding-bottom: 100px;
+ text-align:center;
+ color: #f8f8f8;
+ background-image: url(Images/a.png);
+ background-size: auto;
+}
+.t{
+    font-family: cursive;
+}
+#banner_content{
+ position: relative;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ margin-top: 12%;
+ margin-bottom: 12%;
+ background-color: rgba(0, 0, 0, 0.7);
+ max-width: 660px;
+ overflow: hidden;
+}
+#z{
+ padding:10px 0;
+ background-color: #101010;
+ color:#FFF4BC;
+ width: 100%;
+ top: 20%;
+ bottom: 80%;
+}
+#x{
+    padding-bottom: 200px;
+}
+.check
+{
+    opacity:0.4;
+	color:#996;
+	
+}
+
+.circle {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: red;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(25px 25px, circle, red, #000);
+  background: -moz-radial-gradient(25px 25px, circle, red, #000);
+  background: radial-gradient(25px 25px, circle, red, #000);
+ 
+  -webkit-animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+  -moz-animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+  -ms-animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+  animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+  
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  
+  position: absolute;
+  left: 0;
+}
+
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+/* Move sphere from left to right */
+@-moz-keyframes moveLeftToRight {
+  0%   { left: -100px; }
+  100% { left: 100%; }
+}
+@-ms-keyframes moveLeftToRight {
+  0%   { left: -100px; }
+  100% { left: 100%; }
+}
+@keyframes moveLeftToRight {
+  0%   { left: -100px; }
+  100% { left: 100%; }
+}
+@-webkit-keyframes moveLeftToRight {
+  0%   { left: -100px; }
+  100% { left: 100%; }
+}
